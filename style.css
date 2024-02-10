@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+
+}
+.container{
+   min-height: 100vh;
+    background-color: #002910;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-top: 80px; */
+    padding-bottom: 150px;
+    padding-left: 50px;
+    
+
+}
+.card{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    border-radius: 10px;
+    background-color: #034117;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* align-items: center; */
+    color: white;
+    
+    padding: 40px;
+    margin-top: 10%;
+    margin-left: 5%;
+    position: relative;
+    flex-direction: column;
+    
+}
+.tag{
+    position: absolute;
+    background-color: #00B33B;
+    border-radius: 10px;
+    align-items: center;
+    justify-content:center; 
+    display: flex;
+    height: 80px;
+    width: 75px;
+    font-size: 40px;
+    top: -40px;
+    left: 30px;
+    display: flex;
+    color: black;
+
+}
+.card:nth-child(2) {
+    background-color: #471F0B;
+}
+.card:nth-child(2) .tag {
+    background-color: #E10000;
+}
+.card:nth-child(3) {
+    background-color: #37490D;
+ 
+}
+.card:nth-child(3) .tag {
+    background-color:#FFBB00;
+
+}
+.card:nth-child(7) {
+    background-color: #37490D;
+ 
+}
+.card:nth-child(7) .tag {
+    background-color:#FFBB00;
+
+}
+.card:nth-child(6) {
+    background-color: #471F0B;
+}
+.card:nth-child(6) .tag {
+    background-color: #E10000;
+}
+
+
+nav{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#00220D;
+    justify-content:space-between;
+    position: fixed;
+    z-index: 2;
+}
+nav img{
+    background-color: #00220D;
+    color: white;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    background-color:#00220D;
+    color: white;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    padding-right: 20%;
+
+}
+nav li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
